@@ -1,11 +1,6 @@
-import wget
-from termcolor import colored
-import random
 import requests
 import bs4
 from PyQt5 import QtCore, QtGui, QtWidgets
-import time
-import socket
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
